@@ -85,7 +85,7 @@ $('btnNV').onclick=()=>{nvMode=!nvMode;$('btnNV').classList.toggle('on',nvMode);
 map.on('click',e=>{if(nvMode)addNV(e.latlng)});
 /* Informe */
 $('btnRep').onclick=()=>{
-  const rows=terr.map(t=>{const v=visitsOf(t.name),rec=v.filter(x=>daysSince(x.d)<=MAXD);
+  const rows=terr.slice().sort((a,b)=>a.name.localeCompare(b.name,'es',{numeric:true})).map(t=>{const v=visitsOf(t.name),rec=v.filter(x=>daysSince(x.d)<=MAXD);
     return `<tr><td>${esc(t.name)}</td><td>${fmt(v[0]?.d)}</td><td>${v[0]?daysSince(v[0].d):'—'}</td><td>${rec.length}</td><td>${rec.map(x=>fmt(x.d)).join(', ')}</td></tr>`}).join('');
   const nvr=nv.map(n=>`<tr><td>${esc(n.addr)}</td><td>${esc(n.note)}</td><td>${fmt(n.d)}</td></tr>`).join('')||'<tr><td colspan=3>Ninguna</td></tr>';
   $('report').innerHTML=`<h2>Informe de territorios — últimos 6 meses</h2><p>Congregación Valle Hermoso · Emitido: ${fmt(today())}</p>
