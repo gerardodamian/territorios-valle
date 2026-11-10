@@ -3204,7 +3204,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 57</name>
+        <name>TERRITORIO 57</name>
         <styleUrl>#poly-673AB7-2901-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3229,7 +3229,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 70</name>
+        <name>TERRITORIO 70</name>
         <styleUrl>#poly-673AB7-2301-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3249,7 +3249,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 69</name>
+        <name>TERRITORIO 69</name>
         <styleUrl>#poly-673AB7-2501-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3274,7 +3274,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 67</name>
+        <name>TERRITORIO 67</name>
         <styleUrl>#poly-FF5252-2701-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3310,7 +3310,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 61</name>
+        <name>TERRITORIO 61</name>
         <styleUrl>#poly-FF5252-2701-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3345,7 +3345,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 64</name>
+        <name>TERRITORIO 64</name>
         <styleUrl>#poly-FF5252-2501-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3381,7 +3381,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 65</name>
+        <name>TERRITORIO 65</name>
         <styleUrl>#poly-FF5252-2601-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3405,7 +3405,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 59</name>
+        <name>TERRITORIO 59</name>
         <styleUrl>#poly-0288D1-2301-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3440,7 +3440,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 58</name>
+        <name>TERRITORIO 58</name>
         <styleUrl>#poly-FF5252-2301-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3472,7 +3472,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 62</name>
+        <name>TERRITORIO 62</name>
         <styleUrl>#poly-FF5252-2601-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3494,7 +3494,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 66</name>
+        <name>TERRITORIO 66</name>
         <styleUrl>#poly-FF5252-2401-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3519,7 +3519,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 31</name>
+        <name>TERRITORIO 31</name>
         <styleUrl>#poly-0288D1-2401-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3552,7 +3552,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 30</name>
+        <name>TERRITORIO 30</name>
         <styleUrl>#poly-006064-2101-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3585,7 +3585,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 60</name>
+        <name>TERRITORIO 60</name>
         <styleUrl>#poly-FBC02D-2201-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3610,7 +3610,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 81</name>
+        <name>TERRITORIO 81</name>
         <styleUrl>#poly-1A237E-2601-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3634,7 +3634,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 79</name>
+        <name>TERRITORIO 79</name>
         <styleUrl>#poly-1A237E-2401-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -3658,7 +3658,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Polígono 83</name>
+        <name>TERRITORIO 83</name>
         <styleUrl>#poly-1A237E-2701-77-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
