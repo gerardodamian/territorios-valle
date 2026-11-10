@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Territorios Valle Hermoso</title>
+<meta name="theme-color" content="#0d2b52">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="login">
+  <form id="loginForm">
+    <img src="icon-192.png" alt="">
+    <h2>Territorios<br><span>Valle Hermoso</span></h2>
+    <input type="email" id="em" placeholder="Correo" required autocomplete="username">
+    <input type="password" id="pw" placeholder="Contraseña" required autocomplete="current-password">
+    <button class="go">Ingresar</button>
+    <p id="loginErr"></p>
+  </form>
+</div>
+<header>
+  <div class="brand"><img src="logo.png" alt=""><div><h1>Territorios</h1><small>Valle Hermoso</small></div></div>
+  <nav>
+    <button id="btnNV" class="warn"><i>⛔</i><span class="lbl">NO VISITAR</span></button>
+    <button id="btnRep"><i>📄</i><span class="lbl">Informe</span></button>
+    <button id="btnExp"><i>⬇️</i><span class="lbl">Respaldo</span></button>
+    <label class="btn"><i>🗺️</i><span class="lbl">KML</span><input type="file" id="fileKml" accept=".kml" hidden></label>
+    <button id="btnInst" hidden><i>📲</i><span class="lbl">Instalar</span></button>
+    <button id="btnOut" class="ghost"><i>🚪</i><span class="lbl">Salir</span></button>
+  </nav>
+</header>
+<main>
+  <aside id="list"></aside>
+  <div id="map"></div>
+</main>
+<div class="legend"><span>Reciente</span><i></i><span>6+ meses</span><b>⬤ sin registro</b></div>
+<section id="report"></section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
